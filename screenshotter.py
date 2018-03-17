@@ -2,7 +2,7 @@ from mss import mss
 import ctypes
 import time
 
-# Name your screenshot and save it where the script is
+# Names your screenshot and saves it where the script is
 with mss() as sct:
     newname=input("Insert Screenshot Name: ")
     newname=newname+".png"
